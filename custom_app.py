@@ -5,7 +5,7 @@ import time
 import tensorflow as tf
 from absl import app, flags, logging
 from absl.flags import FLAGS
-import core.utils as utils
+from core import utils
 from core.yolov4 import filter_boxes
 from core.functions import *
 from tensorflow.python.saved_model import tag_constants
